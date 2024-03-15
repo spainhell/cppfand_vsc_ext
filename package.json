@@ -1,0 +1,25 @@
+{
+  "name": "pcfand",
+  "displayName": "PCFAND",
+  "description": "Support for PC FAND",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "pcfand",
+      "aliases": ["PC FAND", "pcfand"],
+      "extensions": ["fand"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "pcfand",
+      "scopeName": "source.fand",
+      "path": "./syntaxes/pcfand.tmLanguage.json"
+    }]
+  }
+}
